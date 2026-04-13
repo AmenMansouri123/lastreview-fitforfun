@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>FitForFun - Account wijzigen</title>
+
+<link rel="stylesheet" href="aw.css">
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <h1 class="logo">FitForFun</h1>
+        <p class="subtitle"></p>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Aanbiedingen</a>
+        <a href="#">Accounts</a>
+        <a href="#">Trainers</a>
+        <a href="#">Lessen</a>
+        <a href="#">Reserveringen</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Gegevens wijzigen</h2>
+
+    <!-- FORM -->
+    <form id="accountForm">
+        <input type="text" id="naam" placeholder="Naam">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="wachtwoord" placeholder="Wachtwoord">
+
+        <button type="submit">Opslaan</button>
+    </form>
+
+    <!-- MELDING -->
+    <div id="melding"></div>
+
+    <!-- TABEL -->
+    <table id="accountTable">
+        <thead>
+            <tr>
+                <th>Naam</th>
+                <th>Email</th>
+                <th>Wachtwoord</th>
+                <th>Acties</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</div>
+
+<script src="aw.js"></script>
+
+</body>
+</html>
