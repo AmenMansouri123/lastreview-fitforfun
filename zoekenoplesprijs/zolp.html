@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>FitForFun - Zoeken op lesprijs</title>
+
+    <link rel="stylesheet" href="zolp.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-top">
+        <h1 class="logo">FitForFun</h1>
+        <p class="subtitle">Zoek jouw perfecte les </p>
+    </div>
+
+    <!-- NAVIGATIE -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aanbiedingen.html">Aanbiedingen</a>
+        <a href="account.html">Accounts</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="lessen.html">Lessen</a>
+        <a href="reserveren.html">Reserveringen</a>
+        <a href="zoekenoplesprijs/zolp.html">Zoeken op lesprijs</a>
+    </nav>
+</header>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <!-- Zoekformulier -->
+    <form id="zoekForm">
+        <input type="number" id="min" placeholder="Min €" required>
+        <input type="number" id="max" placeholder="Max €" required>
+        <button type="submit">Zoeken</button>
+    </form>
+
+    <!-- Resultaten -->
+    <div id="resultaten"></div>
+
+</div>
+
+<script src="zolp.js"></script>
+
+</body>
+</html>
