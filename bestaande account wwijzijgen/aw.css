@@ -1,0 +1,172 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #d1fae5, #ecfdf5);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: white;
+    padding: 20px;
+}
+
+.header-top {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* TITEL */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* INPUT */
+input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border-color: #22c55e;
+    outline: none;
+}
+
+/* BUTTON */
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #22c55e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+/* MELDING */
+.melding {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* TABEL */
+table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #22c55e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f0fdf4;
+}
+
+tr:hover {
+    background: #dcfce7;
+}
+
+/* ACTIE KNOPPEN */
+td button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Wijzig knop */
+.edit-btn {
+    background: #f59e0b;
+}
+
+.edit-btn:hover {
+    background: #d97706;
+}
+
+/* Verwijder knop */
+.delete-btn {
+    background: #ef4444;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
